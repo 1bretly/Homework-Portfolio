@@ -1,20 +1,14 @@
 :root {
-    --primary-color: rgb(0, 187, 255);
+    --primary-color: aqua
 }
 
 * {
-    font-family: open;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
     background-color: var(--primary-color);
     padding: 15px
-}
-
-h1 {
-    font-size: 80px;
-    font-family: ;
-    color: white;
 }
 
 nav ul {
@@ -31,18 +25,8 @@ li {
 
 a:link {
     text-decoration: none;
-    color: white;
 }
 
 a:visited {
-    color: white;
-}
-
-.profilepic {
-    width: 40%;
-    height: 40%;
-}
-
-h2 {
-    font-size: 50px;
+    color: whitesmoke
 }
