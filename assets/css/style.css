@@ -25,7 +25,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 30px;
+    text-shadow: 2px 2px black
 }
 
 nav ul li a:hover {
@@ -40,19 +41,28 @@ nav ul li a:hover {
     background-position: center;
     height: 100vh;
     width: 100%;
+    border-top-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    border-style: solid;
+    border-top-width: 20px;
+    border-right-width: 20px;
+    border-left-width: 20px;
 }
 
-.name {
+.myName {
     color: white;
     font-size: 75px;
+    text-shadow: 2px 2px black
 }
 
 .aboutMe {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    text-shadow: 2px 2px black
 }
 
 span {
@@ -64,6 +74,7 @@ h2 {
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-shadow: 2px 2px black
 }
 
 p {
@@ -74,3 +85,84 @@ p {
 }
 
 /* Work */
+.pro1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+}
+
+.projectCode {
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px black;
+    top: 160%;
+    left: 32%;
+}
+
+#codeRe {
+    display: flex;
+    width: 100%;
+}
+
+.moreProjects {
+    display: flex;
+}
+
+.pros {
+    flex: 45%;
+    padding: 5px;
+}
+
+#moola {
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#lab {
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.nameofProj {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-align: center;
+    text-shadow: 2px 2px gold;
+    color: black;
+}
+
+h3:hover {
+    transition: .4s;
+    color: gold;
+}
+
+.contactMe {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Footer */
+.footer {
+    padding-top: 10px;
+    background-color: black;
+    border: solid;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    font-size: 30px;
+}
